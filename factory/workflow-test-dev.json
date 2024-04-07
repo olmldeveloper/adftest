@@ -1,0 +1,9 @@
+{
+	"name": "workflow-test-dev",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "80c4b295-9e26-42ff-beb2-07aca4fef135",
+		"tenantId": "a6f213e6-48c8-4c61-b2fc-76425d822a0f"
+	}
+}
