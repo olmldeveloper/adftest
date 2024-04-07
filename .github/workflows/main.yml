@@ -59,9 +59,9 @@ jobs:
       - name: Login via Az module
         uses: azure/login@v1
         with:
-          client-id: ${{ secrets.AZURE_CLIENT_ID }}
-          tenant-id: ${{ secrets.AZURE_TENANT_ID }}
-          subscription-id: ${{ secrets.AZURE_SUBSCRIPTION_ID }}
+          client-id: "16d408bd-f6ba-4f1a-8048-50e19dbb14ff"
+          tenant-id: "a6f213e6-48c8-4c61-b2fc-76425d822a0f"
+          subscription-id: "d5af95fc-77ba-4fec-b542-923001f14ad6"
           enable-AzPSSession: true 
 
       - name: data-factory-deploy
