@@ -23,8 +23,8 @@ jobs:
       run: npm install
       working-directory: ${{github.workspace}}/ADFroot/build  # (1) provide the folder location of the package.json file
     
-    - name: rebuild npm
-      run: npm rebuild node-sass 
+    - name: install dependencies
+      run: npm install commander 
       working-directory: ${{github.workspace}}/ADFroot/build
     
 # Validates all of the Data Factory resources in the repository. You'll get the same validation errors as when "Validate All" is selected.
