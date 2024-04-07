@@ -1,0 +1,9 @@
+{
+	"name": "Azure-df-git",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "d4eae7af-4179-46e6-944b-36a8dd62e337",
+		"tenantId": "a6f213e6-48c8-4c61-b2fc-76425d822a0f"
+	}
+}
